@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>BhaukaalNews</title>
+<link rel="icon" href="images/logo.png" type="image/x-icon">
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+<link rel="stylesheet" type="text/css" href="assets/css/font.css">
+<link rel="stylesheet" type="text/css" href="assets/css/li-scroller.css">
+<link rel="stylesheet" type="text/css" href="assets/css/slick.css">
+<link rel="stylesheet" type="text/css" href="assets/css/jquery.fancybox.css">
+<link rel="stylesheet" type="text/css" href="assets/css/theme.css">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<!--[if lt IE 9]>
+<script src="assets/js/html5shiv.min.js"></script>
+<script src="assets/js/respond.min.js"></script>
+<![endif]-->
+</head>
+<body onload="startTime()">
+<div id="preloader">
+  <div id="status">&nbsp;</div>
+</div>
+<a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
+<div class="container">
+  <header id="header">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12">
+        <div class="header_top">
+          <div class="header_top_left">
+            <ul class="top_nav">
+              <li><a href="index.html" id="active">Home</a></li>
+              <li><a href="">About</a></li>                                   <!--add a html page for "ABOUT" page-->
+              <li><a href="pages/contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="header_top_right">
+            <p id="txt"></p>                                                <!--Time added-->
+            <p id="demo"></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-12 col-md-12 col-sm-12">
+        <div class="header_bottom">
+          <div class="logo_area"><a href="index.html" class="logo"><h1 style="color: blueviolet;font-size: 50px;">&nbsp&nbspभौकाल <spam style="color: red;">&nbspNews</spam></h1><!--<img src="images/Logo.png" width="250" height="150" alt="">--></a></div>    <!--Add imaged logo-->
+          <div class="add_banner"><a href="#"><img src="images/addbanner_image1.jpg" alt=""></a></div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section id="navArea">
+    <nav class="navbar navbar-inverse" role="navigation">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav main_nav">
+          <li class="active"><a href="index.html"><span class="fa fa-home desktop-home"></span><span class="mobile-show">Home</span></a></li>
+          <li><a href="#">Covid-19</a></li>
+          <li><a href="#">State</a></li>
+          <li><a href="#">Country</a></li>
+          <li><a href="#">Entertainment</a></li>
+          <li><a href="#">Sports</a></li>
+          <li><a href="#">Technology</a></li>
+          <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Mobile</a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#">Android</a></li>
+              <li><a href="#">Samsung</a></li>
+              <li><a href="#">Nokia</a></li>
+              <li><a href="#">Walton Mobile</a></li>
+              <li><a href="#">Sympony</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Fashion</a></li>
+          <li><a href="#">Life & Style</a></li>
+          <li><a href="#">Career</a></li>
+          <li><a href="#">Women</a></li>
+          <li><a href="pages/contact.html">Contact Us</a></li>
+          
+        </ul>
+      </div>
+    </nav>
+  </section>
+  <section id="newsSection">
+    <div class="row">
+      <div class="col-lg-12 col-md-12">
+        <div class="latest_newsarea"> <span>Featuring People</span>
+        <!--
+        <div class="latest_newsarea"> <span>Latest News</span>
+        -->
+        <!--
+          <ul id="ticker01" class="news_sticker">
+            <li><a href="#"><img src="images/news_thumbnail3.jpg" alt="">My First News Item</a></li>
+            <li><a href="#"><img src="images/news_thumbnail3.jpg" alt="">My Second News Item</a></li>
+            <li><a href="#"><img src="images/news_thumbnail3.jpg" alt="">My Third News Item</a></li>
+            <li><a href="#"><img src="images/news_thumbnail3.jpg" alt="">My Four News Item</a></li>
+            <li><a href="#"><img src="images/news_thumbnail3.jpg" alt="">My Five News Item</a></li>
+            <li><a href="#"><img src="images/news_thumbnail3.jpg" alt="">My Six News Item</a></li>
+            <li><a href="#"><img src="images/news_thumbnail3.jpg" alt="">My Seven News Item</a></li>
+            <li><a href="#"><img src="images/news_thumbnail3.jpg" alt="">My Eight News Item</a></li>
+            <li><a href="#"><img src="images/news_thumbnail2.jpg" alt="">My Nine News Item</a></li>
+          </ul>
+        -->
+          <ul id="ticker01" class="news_sticker">
+            <li><a href="#">Deepdarshan</a></li>
+            <li><a href="#">Kunal Kanotra</a></li>
+            <li><a href="#">Prashant Pathak</a></li>
+            <li><a href="#">Raj Raman</a></li>
+            <li><a href="#">Shivam Kumar Sangal</a></li>
+            <li><a href="#">Deepdarshan</a></li>
+            <li><a href="#">Kunal Kanotra</a></li>
+            <li><a href="#">Prashant Pathak</a></li>
+            <li><a href="#">Raj Raman</a></li>
+            <li><a href="#">Shivam Kumar Sangal</a></li>
+          </ul>
+          <div class="social_area">
+            <ul class="social_nav">
+              <li class="facebook"><a href="#"></a></li>
+              <li class="twitter"><a href="#"></a></li>
+              <li class="flickr"><a href="#"></a></li>
+              <li class="pinterest"><a href="#"></a></li>
+              <li class="googleplus"><a href="#"></a></li>
+              <li class="vimeo"><a href="#"></a></li>
+              <li class="youtube"><a href="#"></a></li>
+              <li class="mail"><a href="#"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="sliderSection">
+    <div class="row">
+      <div class="col-lg-8 col-md-8 col-sm-8">
+        <div class="slick_slider">
+          <div class="single_iteam"> <a href="#"> <img src="images/slider_image4.jpg" alt=""></a>
+            <div class="slider_article">
+              <h2><a class="slider_tittle" href="#">Shramik Special Train From Goa Reaches UP's Ballia 26 Hours Late </a></h2>
+              <p>A Shramik Special train from Karmali in Goa arrived in Uttar Pradesh's Ballia on Sunday after a delay of over 26 hours, said officials.</p>
+            </div>
+          </div>
+          <div class="single_iteam"> <a href="#"> <img src="images/slider_image2.jpg" alt=""></a>
+            <div class="slider_article">
+              <h2><a class="slider_tittle" href="#">There Will Be No Delay In Supply Of Rafale Jets To India: France </a></h2>
+              <p>There will be no delay in delivery of 36 Rafale jets to India as the timeline finalised for the supply of the fighter jets will be strictly respected, French Ambassador Emmanuel Lenain has said.</p>
+            </div>
+          </div>
+          <div class="single_iteam"> <a href="#"> <img src="images/slider_image3.jpg" alt=""></a>
+            <div class="slider_article">
+              <h2><a class="slider_tittle" href="#">UP Withdraws Order Banning Patients From Using Mobile Phones In COVID Isolation Wards</a></h2>
+              <p>The Uttar Pradesh government Sunday withdrew its order prohibiting use of mobile phones by patients in isolation wards of COVID-19 hospitals, a senior official said.</p>
+            </div>
+          </div>
+          <div class="single_iteam"> <a href="#"> <img src="images/slider_image1.jpg" alt=""></a>
+            <div class="slider_article">
+              <h2><a class="slider_tittle" href="#">Gujarat High Court Asks Railways To Waive One-Way Ticket Fare Of Migrants</a></h2>
+              <p>The Gujarat High Court has directed the railway authorities to waive one-way train ticket charges of migrant workers, or the state government should bear the cost as an alternative arrangement.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-4">
+        <div class="latest_post">
+          <h2><span>Latest post</span></h2>
+          <div class="latest_post_container">
+            <div id="prev-button"><i class="fa fa-chevron-up"></i></div>
+            <ul class="latest_postnav">
+              <li>
+                <div class="media"> <a href="#" class="media-left"> <img alt="" src="images/latest_image1.jpg"> </a>
+                  <div class="media-body"> <a href="#" class="catg_title">Coronavirus live updates: 28,500 Indians brought back from 30 countries, MEA says</a> </div>
+                </div>
+              </li>
+              <li>
+                <div class="media"> <a href="#" class="media-left"> <img alt="" src="images/latest_image2.jpg"> </a>
+                  <div class="media-body"> <a href="#" class="catg_title">No domestic flights in West Bengal and Andhra on Monday; Mumbai, Hyderabad & Chennai to see reduced ops</a> </div>
+                </div>
+              </li>
+              <li>
+                <div class="media"> <a href="#" class="media-left"> <img alt="" src="images/latest_image3.jpg"> </a>
+                  <div class="media-body"> <a href="#" class="catg_title">Mayawati slams BJP, Congress for plight of migrants</a> </div>
+                </div>
+              </li>
+              <li>
+                <div class="media"> <a href="#" class="media-left"> <img alt="" src="images/latest_image4.jpg"> </a>
+                  <div class="media-body"> <a href="#" class="catg_title"> PM's Humanity Of Washing Feet Of <i>Safai</i>Workers Has Vanished Now: Sanjay Raut
+                  </a> </div>
+                </div>
+              </li>
+              <li>
+                <div class="media"> <a href="#" class="media-left"> <img alt="" src="images/latest_image5.jpg"> </a>
+                  <div class="media-body"> <a href="#" class="catg_title"> Subdued Eid Celebrations In India In Shadow Of Coronavirus Pandemic
+                  </a> </div>
+                </div>
+              </li>
+            </ul>
+            <div id="next-button"><i class="fa  fa-chevron-down"></i></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contentSection">
+    <div class="row">
+      <div class="col-lg-8 col-md-8 col-sm-8">
+        <div class="left_content">
+          <div class="single_post_content">
+            <h2><span>Business</span></h2>
+            <div class="single_post_content_left">
+              <ul class="business_catgnav  wow fadeInDown">
+                <li>
+                  <figure class="bsbig_fig"> <a href="#" class="featured_img"> <img alt="" src="images/business_image0.jpg"> <span class="overlay"></span> </a>
+                    <figcaption> <a href="#">Have no fear, extend loan to all eligible borrowers: FM Nirmala Sitharaman to banks</a> </figcaption>
+                    <p>Reports have said decisions in the banking sector are being impacted because of the worry of undue harassment by the Central Bureau of Investigation (CBI), Central Vigilance Commission (CVC) and Comptroller and Audit General (CAG).</p>
+                  </figure>
+                </li>
+              </ul>
+            </div>
+            <div class="single_post_content_right">
+              <ul class="spost_nav">
+                <li>
+                  <div class="media wow fadeInDown"> <a href="#" class="media-left"> <img alt="" src="images/business_image1.jpg"> </a>
+                    <div class="media-body"> <a href="" class="catg_title">Punjab has reached out to nations looking to move business from China: CM Amarinder Singh</a> </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="media wow fadeInDown"> <a href="#" class="media-left"> <img alt="" src="images/business_image2.jpg"> </a>
+                    <div class="media-body"> <a href="" class="catg_title">Facebook’s Zuckerberg wealth increased by 45% to $80 billion amid pandemic</a> </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="media wow fadeInDown"> <a href="#" class="media-left"> <img alt="" src="images/business_image3.jpg"> </a>
+                    <div class="media-body"> <a href="#" class="catg_title">Reliance’s JioMart website goes live, expands services to more cities</a> </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="media wow fadeInDown"> <a href="#" class="media-left"> <img alt="" src="images/business_image4.jpg"> </a>
+                    <div class="media-body"> <a href="#" class="catg_title">Covid-19 like last nail in coffin of globalisation, says top economist</a> </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="fashion_technology_area">
+            <div class="fashion">
+              <div class="single_post_content">
+                <h2><span>Fashion</span></h2>
+                <ul class="business_catgnav wow fadeInDown">
+                  <li>
+                    <figure class="bsbig_fig"> <a href="#" class="featured_img"> <img alt="" src="images/fashion_image0.gif"> <span class="overlay"></span> </a>
+                      <figcaption> <a href="#">The Story Behind Britney Spears’s Iconic Oops!…I Did It Again Outfit</a> </figcaption>
+                      <p>Here’s an anniversary you may have missed: It has now been 20 years since the pop princess Britney Spears released her second studio album, Oops!…I Did It Again. On that famed record, the queen of the 2000s churned out some of her biggest hits, such as “Stronger” and “Lucky.”</p>
+                    </figure>
+                  </li>
+                </ul>
+                <ul class="spost_nav">
+                  <li>
+                    <div class="media wow fadeInDown"> <a href="#" class="media-left"> <img alt="" src="images/fashion_image1.jpg"> </a>
+                      <div class="media-body"> <a href="#" class="catg_title">Sonam Kapoor gives us some summer fashion goals in this Bhaane dress</a> </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="media wow fadeInDown"> <a href="#" class="media-left"> <img alt="" src="images/fashion_image2.jpg"> </a>
+                      <div class="media-body"> <a href="#" class="catg_title">Know how to pick a fabric for your wedding dress and preserve it</a> </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="media wow fadeInDown"> <a href="#" class="media-left"> <img alt="" src="images/fashion_image3.jpg"> </a>
+                      <div class="media-body"> <a href="#" class="catg_title">Eid al-Fitr: Shilpa Shetty Kundra plays dress up at home and we are not complaining</a> </div>
+                    </div>
+                  </li>
+                  
+                </ul>
+              </div>
+            </div>
+            <div class="technology">
+              <div class="single_post_content">
+                <h2><span>Technology</span></h2>
+                <ul class="business_catgnav">
+                  <li>
+                    <figure class="bsbig_fig wow fadeInDown"> <a href="#" class="featured_img"> <img alt="" src="images/tech_image0.jpg"> <span class="overlay"></span> </a>
+                      <figcaption> <a href="#">Xiaomi Mi TV Models Get New 'Collections' Feature in India to Highlight Curated Content</a> </figcaption>
+                      <p>Xiaomi's Eshwar Nilakantan announced the launch of Collections on Twitter. Nilakantan is the category lead for smart TVs at Xiaomi India. According to Nilakantan's tweet, Collections will include curated movies across genres, actors, and more. The images shared by the executive also reveal that there will be TV series collections as well. Opening a collection will list all movies or shows in that curated list.</p>
+                    </figure>
+                  </li>
+                </ul>
+                <ul class="spost_nav">
+                  <li>
+                    <div class="media wow fadeInDown"> <a href="#" class="media-left"> <img alt="" src="images/tech_image1.jpg"> </a>
+                      <div class="media-body"> <a href="#" class="catg_title">Samsung India Partners With Facebook to Take Its Offline Retailers Online </a> </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="media wow fadeInDown"> <a href="#" class="media-left"> <img alt="" src="images/tech_image2.jpg"> </a>
+                      <div class="media-body"> <a href=#" class="catg_title"> Motorola One Fusion+ Spotted on YouTube Device Report, Specifications Tipped</a> </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="media wow fadeInDown"> <a href="#" class="media-left"> <img alt="" src="images/tech_image3.jpg"> </a>
+                      <div class="media-body"> <a href="#" class="catg_title"> Oppo Find X2 Price in India Tipped via Amazon Listing Ahead of Launch</a> </div>
+                    </div>
+                  </li>
+                  
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="single_post_content">
+            <h2><span>Photography</span></h2>
+            <ul class="photograph_nav  wow fadeInDown">
+              <li>
+                <div class="photo_grid">
+                  <figure class="effect-layla"> <a class="fancybox-buttons" data-fancybox-group="button" href="images/photo_image1.jpg" title="Photography Ttile 1"> <img src="images/photo_image1.jpg" alt=""/></a> </figure>
+                </div>
+              </li>
+              <li>
+                <div class="photo_grid">
+                  <figure class="effect-layla"> <a class="fancybox-buttons" data-fancybox-group="button" href="images/photo_image2.jpg" title="Photography Ttile 2"> <img src="images/photo_image2.jpg" alt=""/> </a> </figure>
+                </div>
+              </li>
+              <li>
+                <div class="photo_grid">
+                  <figure class="effect-layla"> <a class="fancybox-buttons" data-fancybox-group="button" href="images/photo_image3.jpg" title="Photography Ttile 3"> <img src="images/photo_image3.jpg" alt=""/> </a> </figure>
+                </div>
+              </li>
+              <li>
+                <div class="photo_grid">
+                  <figure class="effect-layla"> <a class="fancybox-buttons" data-fancybox-group="button" href="images/photograph_img4.jpg" title="Photography Ttile 4"> <img src="images/photograph_img4.jpg" alt=""/> </a> </figure>
+                </div>
+              </li>
+              <li>
+                <div class="photo_grid">
+                  <figure class="effect-layla"> <a class="fancybox-buttons" data-fancybox-group="button" href="images/photograph_img2.jpg" title="Photography Ttile 5"> <img src="images/photograph_img2.jpg" alt=""/> </a> </figure>
+                </div>
+              </li>
+              <li>
+                <div class="photo_grid">
+                  <figure class="effect-layla"> <a class="fancybox-buttons" data-fancybox-group="button" href="images/photograph_img3.jpg" title="Photography Ttile 6"> <img src="images/photograph_img3.jpg" alt=""/> </a> </figure>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="single_post_content">
+            <h2><span>Games</span></h2>
+            <div class="single_post_content_left">
+              <ul class="business_catgnav">
+                <li>
+                  <figure class="bsbig_fig  wow fadeInDown"> <a class="featured_img" href="#"> <img src="images/games_image0.jpg" alt=""> <span class="overlay"></span> </a>
+                    <figcaption> <a href="#">T20 World Cup should not be postponed in haste: Pakistan coach Misbah-ul-Haq</a> </figcaption>
+                    <p>Misbah-ul-Haq conceded that hosting a 16-team T20 World Cup in October-November will be a challenge in the wake of the novel coronavirus pandemic.</p>
+                  </figure>
+                </li>
+              </ul>
+            </div>
+            <div class="single_post_content_right">
+              <ul class="spost_nav">
+                <li>
+                  <div class="media wow fadeInDown"> <a href="#" class="media-left"> <img alt="" src="images/games_image1.jpg"> </a>
+                    <div class="media-body"> <a href="#" class="catg_title">Best gaming headset 2020: the best Xbox One and PS4 headsets this year</a> </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="media wow fadeInDown"> <a href="#" class="media-left"> <img alt="" src="images/games_image2.jpg"> </a>
+                    <div class="media-body"> <a href="#" class="catg_title">Ghost of Tsushima's 'huge' map could take many hours to complete</a> </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="media wow fadeInDown"> <a href="#" class="media-left"> <img alt="" src="images/games_image4.jpg"> </a>
+                    <div class="media-body"> <a href="#" class="catg_title">Bundesliga: Timo Werner hat-trick helps Leipzig demolish Mainz 5-0</a> </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="media wow fadeInDown"> <a href="#" class="media-left"> <img alt="" src="images/games_image3.jpg"> </a>
+                    <div class="media-body"> <a href="#" class="catg_title">Best horror games 2020: the scariest games to play on console and PC</a> </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-4">
+        <aside class="right_content">
+          <div class="single_sidebar">
+            <h2><span>Popular Post</span></h2>
+            <ul class="spost_nav">
+              <li>
+                <div class="media wow fadeInDown"> <a href="#" class="media-left"> <img alt="" src="images/pp_image1.jpg"> </a>
+                  <div class="media-body"> <a href="#" class="catg_title">India Set To Fly Today After "Long Day Of Negotiations"</a> </div>
+                </div>
+              </li>
+              <li>
+                <div class="media wow fadeInDown"> <a href="#" class="media-left"> <img alt="" src="images/pp_image2.jpg"> </a>
+                  <div class="media-body"> <a href="#" class="catg_title">"As Good As Dungeon": Gujarat Court On Hospital After High COVID-19 Deaths</a> </div>
+                </div>
+              </li>
+              <li>
+                <div class="media wow fadeInDown"> <a href="#" class="media-left"> <img alt="" src="images/pp_image3.jpg"> </a>
+                  <div class="media-body"> <a href="#" class="catg_title">Wuhan Lab Had 3 Live Bat Coronaviruses, None Matched COVID-19: Report </a> </div>
+                </div>
+              </li>
+              <li>
+                <div class="media wow fadeInDown"> <a href="#" class="media-left"> <img alt="" src="images/pp_image4.jpg"> </a>
+                  <div class="media-body"> <a href="#" class="catg_title">Army Helps In Kolkata But Protests Smoulder In Cyclone-Battered Bengal </a> </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="single_sidebar">
+            <ul class="nav nav-tabs" role="tablist">
+              <li role="presentation" class="active"><a href="#category" aria-controls="home" role="tab" data-toggle="tab">Category</a></li>
+              <li role="presentation"><a href="#video" aria-controls="profile" role="tab" data-toggle="tab">Video</a></li>
+              <li role="presentation"><a href="#comments" aria-controls="messages" role="tab" data-toggle="tab">Comments</a></li>
+            </ul>
+            <div class="tab-content">
+              <div role="tabpanel" class="tab-pane active" id="category">
+                <ul>
+                  <li class="cat-item"><a href="#">Sports</a></li>
+                  <li class="cat-item"><a href="#">Fashion</a></li>
+                  <li class="cat-item"><a href="#">Business</a></li>
+                  <li class="cat-item"><a href="#">Technology</a></li>
+                  <li class="cat-item"><a href="#">Games</a></li>
+                  <li class="cat-item"><a href="#">Life &amp; Style</a></li>
+                  <li class="cat-item"><a href="#">Photography</a></li>
+                </ul>
+              </div>
+              <div role="tabpanel" class="tab-pane" id="video">
+                <div class="vide_area">
+                  <iframe width="100%" height="250" src="http://www.youtube.com/embed/h5QWbURNEpA?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>
+                </div>
+              </div>
+              <div role="tabpanel" class="tab-pane" id="comments">
+                <ul class="spost_nav">
+                  <li>
+                    <div class="media wow fadeInDown"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="images/post_img1.jpg"> </a>
+                      <div class="media-body"> <a href="pages/single_page.html" class="catg_title"> Aliquam malesuada diam eget turpis varius 1</a> </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="media wow fadeInDown"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="images/post_img2.jpg"> </a>
+                      <div class="media-body"> <a href="pages/single_page.html" class="catg_title"> Aliquam malesuada diam eget turpis varius 2</a> </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="media wow fadeInDown"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="images/post_img1.jpg"> </a>
+                      <div class="media-body"> <a href="pages/single_page.html" class="catg_title"> Aliquam malesuada diam eget turpis varius 3</a> </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="media wow fadeInDown"> <a href="pages/single_page.html" class="media-left"> <img alt="" src="images/post_img2.jpg"> </a>
+                      <div class="media-body"> <a href="pages/single_page.html" class="catg_title"> Aliquam malesuada diam eget turpis varius 4</a> </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="single_sidebar wow fadeInDown">
+            <h2><span>Sponsor</span></h2>
+            <a class="sideAdd" href="#"><img src="images/add_img.jpg" alt=""></a> </div>
+          <div class="single_sidebar wow fadeInDown">
+            <h2><span>Category Archive</span></h2>
+            <select class="catgArchive">
+              <option>Select Category</option>
+              <option>Life styles</option>
+              <option>Sports</option>
+              <option>Technology</option>
+              <option>Treads</option>
+            </select>
+          </div>
+          <div class="single_sidebar wow fadeInDown">
+            <h2><span>Links</span></h2>
+            <ul>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Rss Feed</a></li>
+              <li><a href="#">Login</a></li>
+              <li><a href="#">Life &amp; Style</a></li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+  <footer id="footer">
+    <div class="footer_top">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-4">
+          <div class="footer_widget wow fadeInLeftBig">
+            <h2>Flickr Images</h2>
+            <img src="images/Logo.png" height="300" width="300">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4">
+          <div class="footer_widget wow fadeInDown">
+            <h2>Tag</h2>
+            <ul class="tag_nav">
+              <li><a href="#">Games</a></li>
+              <li><a href="#">Sports</a></li>
+              <li><a href="#">Fashion</a></li>
+              <li><a href="#">Business</a></li>
+              <li><a href="#">Life &amp; Style</a></li>
+              <li><a href="#">Technology</a></li>
+              <li><a href="#">Photo</a></li>
+              <li><a href="#">Slider</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4">
+          <div class="footer_widget wow fadeInRightBig">
+            <h2>Contact</h2>
+            <p>BhaukaalNews(By Original K.E.M.I.N.E.Y)</p>
+            <address>
+            Room No.:410
+            New Basholi Hostel (in front of Nilgiri Hostel)
+            Shri Mata Vaishno Devi University,Katra,Reasi
+            Jammu & Kashmir(UT), India
+            Pin Code: 182320
+            </address>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer_bottom">
+      <p class="copyright">Copyright &copy; 2020 <a href="index.html">BhaukaalNews</a></p>
+      <p class="developer">Developed By Deepdarshan</p>
+    </div>
+  </footer>
+</div>
+<script src="assets/js/jquery.min.js"></script> 
+<script src="assets/js/wow.min.js"></script> 
+<script src="assets/js/bootstrap.min.js"></script> 
+<script src="assets/js/slick.min.js"></script> 
+<script src="assets/js/jquery.li-scroller.1.0.js"></script> 
+<script src="assets/js/jquery.newsTicker.min.js"></script> 
+<script src="assets/js/jquery.fancybox.pack.js"></script> 
+<script src="assets/js/custom.js"></script>
+<script src="assets/js/time.js"></script>
+<script src="assets/js/date.js"></script>
+</body>
+</html>
