@@ -31,7 +31,7 @@ This project is also meant to be a starting for all techies interested to get th
 For any query contact mentor
 <a href="https://www.instagram.com/rajraman786/"><span>👉  RAMAN RAJ</span></a>
 <a href="https://www.instagram.com/deeps_2106/"><span>👉  DEEPDARSHAN</span></a>
-<br>
+<br><br><br>
 
                                                                                                                               
 <p align="center"><img width=35% src="https://media.giphy.com/media/xUPGcJGy8I928yIlAQ/giphy.gif"></p>
