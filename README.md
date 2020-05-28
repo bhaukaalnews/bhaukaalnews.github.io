@@ -36,5 +36,5 @@ For any query contact mentor
                                                                                                                               
 <p align="center"><img width=35% src="https://media.giphy.com/media/xUPGcJGy8I928yIlAQ/giphy.gif"></p>
 <br>
-<p align="center"><src="images/Logo1.png"></p>
+<p align="center"><img src="images/logo1.png"></p>
 
