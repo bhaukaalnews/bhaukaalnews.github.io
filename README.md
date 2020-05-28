@@ -29,8 +29,8 @@ This project is also meant to be a starting for all techies interested to get th
 <p align="center"><img width=50% src="https://media1.giphy.com/media/3oz8xTuidCL4UuBtq8/giphy.gif"></p>
 <br>
 For any query contact mentor
-👉 [RAMAN RAJ](https://www.instagram.com/rajraman786/):
-👉 [DEEPDARSHAN](https://www.instagram.com/deeps_2106/):
+<a href="https://www.instagram.com/rajraman786/"><span>👉  RAMAN RAJ</span></a>
+<a href="https://www.instagram.com/deeps_2106/"><span>👉  DEEPDARSHAN</span></a>
 <br>
 
                                                                                                                               
