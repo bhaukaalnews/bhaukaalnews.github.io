@@ -1,7 +1,7 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
-<title>BhaukaalNews | Contact</title>
+<title>BhaukaalNews | Team</title>
 <link rel="icon" href="../images/logo.png" type="image/x-icon">
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,7 +15,6 @@
 <link rel="stylesheet" type="text/css" href="../assets/css/jquery.fancybox.css">
 <link rel="stylesheet" type="text/css" href="../assets/css/theme.css">
 <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
-<link rel="stylesheet" type="text/css" href="../assets/css/contact.css">
 <!--[if lt IE 9]>
 <script src="../a<div class="logo_area"><a href="index.html" class="logo"><h1 style="color: blueviolet;font-size: 50px;">&nbsp&nbspभौकाल <spam style="color: red;">&nbspNews</spam></h1><!--<img src="images/Logo.png" width="250" height="150" alt="">--></a></div>    <!--Add imaged logo-->
 <script src="../assets/js/respond.min.js"></script>
@@ -33,10 +32,10 @@
         <div class="header_top">
           <div class="header_top_left">
             <ul class="top_nav">
-              <li><a href="../index.html" >Home</a></li>
+              <li><a href="../index.html">Home</a></li>
               <li><a href="#">About</a></li>
-              <li><a href="contact.html" id="active">Contact</a></li>
-              <li><a href="teams.html">Team</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="teams.html" id="active">Team</a></li>
             </ul>
           </div>
           <div class="header_top_right">
@@ -117,7 +116,6 @@
             <li><a href="https://www.instagram.com/rajraman786/">Raj Raman</a></li>
             <li><a href="https://www.instagram.com/shivam0801/">Shivam Kumar Sangal</a></li>
           </ul>
-          </ul>
           <div class="social_area">
             <ul class="social_nav">
               <li class="facebook"><a href="#"></a></li>
@@ -134,106 +132,23 @@
       </div>
     </div>
   </section>
+<!--
   <section id="contentSection">
     <div class="row">
       <div class="col-lg-8 col-md-8 col-sm-8">
-          <div class="left_content">
-                  <div class="container pt-5 pb-5">
-                      <div class="col-lg-7 col-md-12 col-sm-12 col-xs-12 contact-form p-5 mb-5">
-                          <h1 class="font-weight-bold mb-1">Get In <font style="color: #fc92e7">Touch.</font></h1>
-                          <p class="ml-2 mb-5">Want to get in touch? We'd love to hear from you. Here's how you can reach us...</p>
-                          <form class="form-horizontal" name="myForm" action="https://formspree.io/xyz@gmail.com" onsubmit="return validateForm()" method="post">
-                              <div class="form-group pb-3">
-                                  <input type="text" id="name" name="name" placeholder=" " class="form-control no-border" required>
-                                  <label class="form-control-placeholder" for="name">Name</label>
-                              </div>
-                              <div class="form-group pb-3">
-                                  <input type="email" id="email" name="email" placeholder=" " class="form-control no-border" required>
-                                  <label class="form-control-placeholder" for="email">Email Address</label>
-                              </div>
-                              <div class="form-group pb-3">
-                                  <input type="text" id="subject" name="subject" placeholder=" " class="form-control no-border" required>
-                                  <label class="form-control-placeholder" for="Subject">Subject</label>
-                              </div>
-                              <div class="form-group">
-                                  <textarea name="message" rows="4" class="form-control no-border" placeholder=" " required></textarea>
-                                  <label class="form-control-placeholder" for="message">Your Message</label>
-                              </div>
-                              <div>
-                                  <!-- START CAPTCHA -->
-                                  <br>
-                                  <div class="capbox">
-
-                                      <div id="CaptchaDiv"></div>
-
-                                      <div class="capbox-inner">
-                                          Type the number:<br>
-
-                                          <input type="hidden" id="txtCaptcha">
-                                          <input type="text" name="CaptchaInput" id="CaptchaInput" size="15"><br>
-
-                                      </div>
-                                  </div>
-                                  <br><br>
-                                  <!-- END CAPTCHA -->
-                              </div>
-                              <div class="form-group mb-3">
-                                  <button type="submit" class="btn btn-secondary btn-lg btn-block" id="submit-button" value="Send"> Send Message </button>
-                              </div>
-                          </form>
-                          <script type="text/javascript">
-
-                              // Captcha Script
-
-                              function checkform(theform) {
-                                  var why = "";
-
-                                  if (theform.CaptchaInput.value == "") {
-                                      why += "- Please Enter CAPTCHA Code.\n";
-                                  }
-                                  if (theform.CaptchaInput.value != "") {
-                                      if (ValidCaptcha(theform.CaptchaInput.value) == false) {
-                                          why += "- The CAPTCHA Code Does Not Match.\n";
-                                      }
-                                  }
-                                  if (why != "") {
-                                      alert(why);
-                                      return false;
-                                  }
-                              }
-
-                              var a = Math.ceil(Math.random() * 9) + '';
-                              var b = Math.ceil(Math.random() * 9) + '';
-                              var c = Math.ceil(Math.random() * 9) + '';
-                              var d = Math.ceil(Math.random() * 9) + '';
-                              var e = Math.ceil(Math.random() * 9) + '';
-
-                              var code = a + b + c + d + e;
-                              document.getElementById("txtCaptcha").value = code;
-                              document.getElementById("CaptchaDiv").innerHTML = code;
-
-                              // Validate input against the generated number
-                              function ValidCaptcha() {
-                                  var str1 = removeSpaces(document.getElementById('txtCaptcha').value);
-                                  var str2 = removeSpaces(document.getElementById('CaptchaInput').value);
-                                  if (str1 == str2) {
-                                      return true;
-                                  } else {
-                                      return false;
-                                  }
-                              }
-
-                              // Remove the spaces from the entered and generated code
-                              function removeSpaces(string) {
-                                  return string.split(' ').join('');
-                              }
-                          </script>
-
-                      </div>
-                  </div>
-
-              
+        <div class="left_content">
+          <div class="contact_area">
+            <h2>Contact Us</h2>
+            <p>Please write any review or suggestion for us.</p>
+            <form action="#" class="contact_form">
+              <input class="form-control" type="text" placeholder="Name*">
+              <input class="form-control" type="email" placeholder="Email*">
+              <textarea class="form-control" cols="30" rows="10" placeholder="Message*"></textarea>
+              <input type="button" value="Send Message" onclick="myfuntion()">
+              <script>funtion myfuntion(){alert("Submited");}</script>
+            </form>
           </div>
+        </div>
       </div>
       <div class="col-lg-4 col-md-4 col-sm-4">
         <aside class="right_content">
@@ -266,6 +181,7 @@
       </div>
     </div>
   </section>
+-->
   <footer id="footer">
     <div class="footer_top">
       <div class="row">
@@ -322,41 +238,4 @@
 <script src="../assets/js/time.js"></script>
 <script src="../assets/js/date.js"></script>
 </body>
-<script type="text/javascript">
-
-    function validateForm() {
-        var nameVal = document.myForm.name.value;
-        var numbers = /^[0-9]+$/;
-        if (nameVal.match(numbers)) {
-            alert("Please enter correct name")
-            document.myForm.name.focus();
-            return false;
-        }
-
-        var emailID = document.myForm.email.value;
-        atpos = emailID.indexOf("@");
-        dotpos = emailID.lastIndexOf(".");
-
-        if (atpos < 1 || (dotpos - atpos < 2)) {
-            alert("Please enter correct email ID")
-            document.myForm.email.focus();
-            return false;
-        }
-
-        var subject = document.myForm.subject.value;
-        var message = document.myForm.message.value;
-        if (subject.length < 10) {
-            alert("Minimum Length of subject must be 10");
-            document.myForm.subject.focus();
-            return false;
-        }
-        if (message.length < 10) {
-            alert("Minimum Length of message must be 10");
-            document.myForm.message.focus();
-            return false;
-        }
-
-        return (true);
-    }
-</script>
 </html>
