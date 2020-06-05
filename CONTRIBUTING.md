@@ -54,3 +54,5 @@ We want to make contributing to this project as easy and transparent as possible
 Feel free to ask your queries!! 🙌
 
 ## Keep Contributing !!  👋 
+<br>
+<p align="center"><img src="images/logo1.png"></p>

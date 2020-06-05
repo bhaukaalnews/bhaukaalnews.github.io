@@ -44,4 +44,4 @@ Project maintainers who do not follow or enforce the Code of Conduct in good fai
 
 <br>
 
-<p align="center"><src="images/logo1.png"></p>
+<p align="center"><img src="images/logo1.png"></p>
