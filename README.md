@@ -21,7 +21,7 @@ This project is also meant to be a starting for all techies interested to get th
 <p align= "center"><img width=55% src="https://image.freepik.com/free-vector/public-contribution-concept_23-2147848243.jpg"></p>
 <br>
 
-<a href="./Code_of_Conduct.md"><h2 align= "center"><b> Code of Conduct</b></h2></a> 
+<a href=".md files/Code_of_Conduct.md"><h2 align= "center"><b> Code of Conduct</b></h2></a> 
 <p align="center"><img width=35% src="https://websitepolicies.gumlet.com/uploads/q/w/l/r/5h2rq39otn0e2r3508fj.jpg?w=400&dpr=2.6"></p>
 <br>
 
