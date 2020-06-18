@@ -17,7 +17,7 @@ This project is also meant to be a starting for all techies interested to get th
 👉 [Checkout the current version](https://bhaukaalnews.github.io/): 
 
 
-<a href="./CONTRIBUTING.md"><h2 align= "center"><b> Contribution Guidelines</b></h2></a> 
+<a href=".md files/CONTRIBUTING.md"><h2 align= "center"><b> Contribution Guidelines</b></h2></a> 
 <p align= "center"><img width=55% src="https://image.freepik.com/free-vector/public-contribution-concept_23-2147848243.jpg"></p>
 <br>
 
